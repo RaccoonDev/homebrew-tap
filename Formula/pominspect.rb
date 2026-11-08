@@ -2,6 +2,7 @@
 class Pominspect < Formula
   desc "Terminal UI for exploring a Maven build's effective POM and dependency tree"
   homepage "https://github.com/RaccoonDev/pominspect"
+  license "MIT"
   version "0.0.1"
 
   on_macos do
