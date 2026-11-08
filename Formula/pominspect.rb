@@ -3,27 +3,27 @@ class Pominspect < Formula
   desc "Terminal UI for exploring a Maven build's effective POM and dependency tree"
   homepage "https://github.com/RaccoonDev/pominspect"
   license "MIT"
-  version "0.0.1"
+  version "0.0.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/RaccoonDev/pominspect/releases/download/v0.0.1/pominspect-v0.0.1-aarch64-apple-darwin.tar.gz"
-      sha256 "273000c3e5d9ac95cf7c7648e4c9566c03ccd7d22f146a9997dcbb86d9d01a30"
+      url "https://github.com/RaccoonDev/pominspect/releases/download/v0.0.2/pominspect-v0.0.2-aarch64-apple-darwin.tar.gz"
+      sha256 "07719c158c2ca4eef7306a3f7df874d883e4fc5d6e479c9e432d2395590f85b7"
     end
     on_intel do
-      url "https://github.com/RaccoonDev/pominspect/releases/download/v0.0.1/pominspect-v0.0.1-x86_64-apple-darwin.tar.gz"
-      sha256 "4195caa579fae60f3324e4ceba0331712639fcee16d67712e6b48b1e0a5e1c1c"
+      url "https://github.com/RaccoonDev/pominspect/releases/download/v0.0.2/pominspect-v0.0.2-x86_64-apple-darwin.tar.gz"
+      sha256 "1fbabde38630b1e0d87184d181e3e663a260e077d0ee43bf284a68142fd27c93"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/RaccoonDev/pominspect/releases/download/v0.0.1/pominspect-v0.0.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "44f5fd57345e6afc94388eb1c5cd3083a10566951f9a3fea0e374a0fe957de02"
+      url "https://github.com/RaccoonDev/pominspect/releases/download/v0.0.2/pominspect-v0.0.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "dd60b183026171d829ee2c74e7db7e762c28a4d9f184b49ef77b8600823cdf65"
     end
     on_intel do
-      url "https://github.com/RaccoonDev/pominspect/releases/download/v0.0.1/pominspect-v0.0.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "c84efd817a2e70c537ea1e9557ecbb700a662015905c913c341ea2012f8bc34f"
+      url "https://github.com/RaccoonDev/pominspect/releases/download/v0.0.2/pominspect-v0.0.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "947ada97b39161c11e72ba51dcd99dc09e02245634306773b9ac737bb087a373"
     end
   end
 
